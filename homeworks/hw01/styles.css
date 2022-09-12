@@ -14,13 +14,183 @@ body {
 
 nav {
  text-align: end;
+ display: flex;
+ justify-content: flex-end;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+
+}
+
+li {
+    padding: 2px;
+}
+
+
+a {
+    text-decoration: solid;
+    color: white;
+    margin-right: 30px;
+    font-family:'Zilla Slab', serif;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 header {
     background-color: teal;
     text-align: center;
-    border-radius: ;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+    color: white;
+}
+
+#about {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    padding-top: 86px;
+    padding-left: 150px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.project-holder {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    /* margin-left: 20vw;
+    margin-right: 20vw; */
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+#projects {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+
+}
+
+.project-holder img {
+    width: 100%;
+}
+
+#projects h2 {
+    padding-left: 20px;
+    padding-top: 60px;
+
+}
+
+.card-a, .card-b, .card-c, .card-d {
+    width: 100%;
+    /* height: 300px; */
+    background-color: lightgray;
+    color: black;
+}
+
+
+
+#contact {
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.contact-details {
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 40px;
+
+}
+
+#contact-info .row {
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin-bottom: 20px;
+    font-family:'Lato', sans-serif;
+}
+
+.row p {
+    margin: 0;
+}
+
+form .row1 {
+    display: grid;
+    grid-template-columns: 40% auto;
+    column-gap: 15px;
+}
+
+form .row {
+    margin-bottom: 10px;
+}
+
+
+.row1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 20px;
+}
+
+.textarea {
+    width: 100%;
+    margin: 0;
+}
+#contact h2 {
+    font-family:'Lato', sans-serif;
+}
+
+#contact p {
+    font-family:'Lato', sans-serif;
+}
+#name {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(213, 213, 213);
+    border: none;
+    font-family:'Lato', sans-serif;
+}
+
+#email {
+    width: 55%;
+    padding: 10px;
+    background-color: rgb(213, 213, 213);
+    border: none;
+    font-family:'Lato', sans-serif;
+}
+
+#message {
+    width: 74%;
+    font-family:'Lato', sans-serif;
+}
+
+#submit {
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 3566px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+footer {
+    padding-left: 650px;
+    background-color: lightgray;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family:'Lato', sans-serif;
 }
