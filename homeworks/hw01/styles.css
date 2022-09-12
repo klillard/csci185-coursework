@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+
+nav {
+ text-align: end;
+}
+
+ul {
+    list-style-type: none;
+}
+header {
+    background-color: teal;
+    text-align: center;
+    border-radius: ;
+}

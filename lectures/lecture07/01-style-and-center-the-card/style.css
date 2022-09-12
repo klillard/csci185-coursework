@@ -1,0 +1,38 @@
+body * {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.card {
+    width: 25%;
+    border: solid 1px #CCC;
+
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 100%;
+}
+
+.card p {
+    padding: 5%;
+}
+/*
+Part 1: Create some style blocks to style the card. 
+    Experiment with: border, padding, margin, height, and width.
+*/
+
+
+
+
+
+
