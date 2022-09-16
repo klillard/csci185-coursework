@@ -25,14 +25,10 @@ header, main, footer {
 
 header {
     height: 20vh;
-    background-color: coral;
-    
 }
 
 main {
-    height: 80vh;
-    background-color: #eee;
-
+    height: 70vh;
 }
 
 footer {
@@ -41,9 +37,5 @@ footer {
 
 @media screen and (max-width: 800px) {
     /* Your code here! */
-    body {
-        background-color: hotpink;
-
-    }
 }
 

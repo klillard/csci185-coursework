@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #45425a;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+footer {
+    background-color: #EEE;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+code {
+    background-color: #EEE;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+main > p{
+    font-weight:bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    border: solid 2px #000;
+    padding: 10px;
+    font-weight: normal;
+}
+
+#card1 {
+    background-color: #EEEEEE;
+    font-weight: normal;
+}
+
+#card1 img {
+    border-radius: 50%;
+}
+
+#card2 {
+    background-color: #bce5d6;
+    font-weight: lighter;
+}
+
+#card3 {
+    background-color: #EEEEEE;
+    font-weight: lighter;
+}
+
+#card3 img {
+    border-radius: 50%;
+}
+
+#card4 {
+    background-color: #bce5d6;
+    font-weight: lighter;
+}
+
+#card5 {
+    background-color: #EEEEEE;
+    font-weight: lighter;
+}
+
+#card5 img {
+    border-radius: 50%;
+}
+
+#card6 {
+    background-color: #bce5d6;
+    font-weight: lighter;
+}
+.card img {
+    width: 100%;
+    border: solid 2px #000;
+}
+
+footer {
+    background-color: #EEE;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+}
