@@ -37,17 +37,19 @@ header {
     background: #111;
     position: sticky;
     top: 0px;
+    display: grid;
+    justify-content: end;
 }
 
-/* Uncomment to see borders:  */
-/* header, nav, article {
+/* Uncomment to see borders:  */ */
+/* /* header, nav, article {
     border: solid 5px teal;
-    padding: 10px;
-}
+    padding: 10px; */
+/* } */
 main {
     border: solid 5px hotpink;
     padding: 10px;
-} */
+}
 
 main {
     background: #111;
@@ -85,17 +87,39 @@ footer {
 /* Part A: Left Navigation */
 /***************************/
 
-/* Your Code Here */
-
-
+#sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
 
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
 
-/* Your Code Here */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: end;
+    /* justify-content: space-around; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 150px;
+    align-items: center;
+}
 
-
+#profile {
+    margin-left: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    
+}
 
 
 
@@ -119,6 +143,14 @@ footer {
     height: 200px;
 }
 
+.artist-card {
+    background-color: #222;
+    border-radius: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
 
 
 
@@ -129,10 +161,10 @@ footer {
 /* Your Code Here */
 
 @media screen and (max-width: 1000px) {
-    /* 
-        Tablet Display: 3 cards per row!
-    
-    */
+/* #featured-content {width: 33.33%;} */
+    #featured-content {
+        grid-template-columns: auto auto auto;
+    }
 }
 
 
@@ -142,6 +174,19 @@ footer {
         * The aside panel and "Upgrade" button should no longer be visible.
         * There should only be a 1-column layout.
     */
+    #featured-content {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #upgrade {
+        display: none;
+    }
+
+    #sidebar {
+        display: none;
+    }
+    body {
+        grid-template-columns: auto;
+    }
 }
-
-
