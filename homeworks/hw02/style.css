@@ -41,13 +41,14 @@ header {
     justify-content: end;
 }
 
-/* Uncomment to see borders:  */
-/* /* header, nav, article {
+/* Uncomment to see borders: */
+/* header, nav, article {
     border: solid 5px teal;
-    padding: 10px; */
-/* } */
-/* main {
-    /* border: solid 5px hotpink;
+    padding: 10px;
+ }
+
+main {
+    border: solid 5px hotpink;
     padding: 10px;
 } */
 
