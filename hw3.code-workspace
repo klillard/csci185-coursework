@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "homeworks/hw3"
+		},
+		{
+			"path": "tutorials/tutorial07"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "hw3"
+	}
+}
