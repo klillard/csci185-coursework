@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../lectures/new lecture15"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hw04",
+		"liveServer.settings.port": 5501
+	}
+}
