@@ -1,5 +1,6 @@
-const canvasWidth = window.innerWidth;
-const canvasHeight = window.innerHeight; 
+    const canvasWidth = window.innerWidth;
+    const canvasHeight = window.innerHeight;
+ 
 
 const balls = [
     { x: 500, y: 250, d: 50, speed: 4 },
@@ -8,6 +9,7 @@ const balls = [
 
 function setup() {
     createCanvas(canvasWidth, canvasHeight);
+    drawGrid(canvasWidth, canvasHeight);
 }
 
 counter = 0;
