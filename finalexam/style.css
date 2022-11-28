@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #979763;
+}
+
+
+a {
+    text-decoration: solid;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+}
+
+header {
+    background-color: #c79797;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#about {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding-top: 86px;
+    padding-left: 150px;
+}
+
+#familyFriends {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding-top: 86px;
+    padding-left: 150px;
+}
+
+
+
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.project-holder {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    /* margin-left: 20vw;
+    margin-right: 20vw; */
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+#projects {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+
+}
+
+.project-holder img {
+    width: 100%;
+}
+
+#projects h2 {
+    padding-left: 20px;
+    padding-top: 60px;
+
+}
+
+.card-a, .card-b, .card-c, .card-d {
+    width: 100%;
+    /* height: 300px; */
+    background-color: #979763;
+    color: beige;
+}
+
+
+
+#contact {
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.contact-details {
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 40px;
+
+}
+
+#contact-info .row {
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin-bottom: 20px;
+    font-family:'Lato', sans-serif;
+}
+
+.row p {
+    margin: 0;
+}
+
+form .row1 {
+    display: grid;
+    grid-template-columns: 40% auto;
+    column-gap: 15px;
+}
+
+form .row {
+    margin-bottom: 10px;
+}
+
+
+.row1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 20px;
+}
+
+.textarea {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+footer {
+    padding-left: 650px;
+    background-color: lightgray;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+}

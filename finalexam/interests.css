@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #979763;
+}
+
+
+a {
+    text-decoration: solid;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+}
+
+header {
+    background-color: #c79797;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: white;
+}
