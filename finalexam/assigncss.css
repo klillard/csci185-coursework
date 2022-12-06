@@ -56,12 +56,50 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
 
 h1 {
     color: white;
 }
 
+#homework {
+    text-align: center;
+    padding-bottom: 30px;
+}
 
+#tutorials {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#projects {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#aesthetic {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-left: auto;
+
+}
+
+
+#aesthetic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
 
 
 
@@ -70,6 +108,13 @@ h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
+footer {
+    padding-left: 650px;
+    background-color: lightgray;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
 
 
 

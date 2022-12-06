@@ -50,114 +50,65 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
+header img {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     color: white;
 }
 
 #about {
     font-family: 'Quicksand', sans-serif;
-    text-align: left;
+    text-align: center;
     padding-top: 86px;
-    padding-left: 150px;
 }
 
 #familyFriends {
     font-family: 'Quicksand', sans-serif;
-    text-align: left;
+    text-align: center;
     padding-top: 86px;
-    padding-left: 150px;
 }
 
+#familypictures {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
 
+}
+
+#familypictures img {
+    width: 500px;
+    height: 500px;
+}
 
 
 h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
-.project-holder {
+#aesthetic {
     display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 20px;
-    font-family: 'Lato', sans-serif;
-    /* margin-left: 20vw;
-    margin-right: 20vw; */
-    column-gap: 30px;
-    row-gap: 30px;
-}
-
-#projects {
-    padding-left: 20vw;
-    padding-right: 20vw;
-    background-color: #f4f4f4;
-    padding-bottom: 50px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-left: auto;
 
 }
 
-.project-holder img {
-    width: 100%;
+
+#aesthetic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
 }
 
-#projects h2 {
-    padding-left: 20px;
-    padding-top: 60px;
-
-}
-
-.card-a, .card-b, .card-c, .card-d {
-    width: 100%;
-    /* height: 300px; */
-    background-color: #979763;
-    color: beige;
-}
-
-
-
-#contact {
-    padding-left: 200px;
-    padding-right: 200px;
-
-}
-
-.contact-details {
-    display:grid;
-    grid-template-columns: 3fr 2fr;
-    column-gap: 40px;
-
-}
-
-#contact-info .row {
-    display: grid;
-    grid-template-columns: 40px auto;
-    margin-bottom: 20px;
-    font-family:'Lato', sans-serif;
-}
-
-.row p {
-    margin: 0;
-}
-
-form .row1 {
-    display: grid;
-    grid-template-columns: 40% auto;
-    column-gap: 15px;
-}
-
-form .row {
-    margin-bottom: 10px;
-}
-
-
-.row1 {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    column-gap: 20px;
-}
-
-.textarea {
-    width: 100%;
-    margin: 0;
-}
 
 
 
